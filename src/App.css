@@ -22,17 +22,36 @@
     -webkit-text-stroke: 2px red;
 }
 
+.app__logo__section {
+    height: 15rem;
+    width: 17rem;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+}
 
 .app__logo {
-    max-height: 15rem;
-    max-width: 16rem;
-    padding: 0px 10%;
-    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
 }
 
 .app__button {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 17%;
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+    .app__body {
+        justify-content: space-around;
+    }
+
+    .app__heading {
+        padding-top: 10px;
+        font-size: 3rem;
+    }
+
+    .app__logo__section {
+        height: 13rem;
+        width: 15rem;
+        margin-left: 32%;
+    }
 }

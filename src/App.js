@@ -8,10 +8,10 @@ function App() {
 		<div className="App">
 			<div className="app__body">
 			<span className="app__heading"> FISH FRY</span>
-			<div ><img src={logo} alt="app__logo" className="app__logo"></img> </div>
+			<div className="app__logo__section"><img src={logo} alt="app__logo" className="app__logo"></img> </div>
 			<div className="app__button">
-			<Button variant="contained" color="primary" href="# ">Timer</Button>
-			<Button variant="contained" color="primary" href="# ">Score Card</Button>
+			<Button variant="contained" color="primary"className="mb-3">Timer</Button>
+			<Button variant="contained" color="primary">Score Card</Button>
 			</div>
 			</div>
 		</div>
