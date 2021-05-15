@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+@import url('https://fonts.googleapis.com/css?family=Slackey');
+@import url('https://fonts.googleapis.com/css?family=Denk+One');
+
+.app__body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10%;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.app__heading {
+    text-align: center;
+    padding-top: 3rem;
+    font-family: 'Wendy One';
+    font-size: 4rem;
+    background: -webkit-linear-gradient(rgb(255, 249, 200), rgb(255, 225, 0), rgb(204, 31, 31));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px red;
+}
+
+
+.app__logo {
+    max-height: 15rem;
+    max-width: 16rem;
+    padding: 0px 10%;
+    /* border: 1px solid black; */
+}
+
+.app__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 17%;
+}
