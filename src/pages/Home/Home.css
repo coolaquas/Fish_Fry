@@ -1,0 +1,52 @@
+.home__body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10%;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.home__heading {
+    text-align: center;
+    padding-top: 3rem;
+    font-family: 'Wendy One';
+    font-size: 4rem;
+    background: -webkit-linear-gradient(rgb(255, 249, 200), rgb(255, 225, 0), rgb(204, 31, 31));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px red;
+}
+
+.home__logo__section {
+    height: 15rem;
+    width: 17rem;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+}
+
+.home__logo {
+    height: 100%;
+    width: 100%;
+}
+
+.home__button {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+    .home__body {
+        justify-content: space-around;
+    }
+
+    .home__heading {
+        padding-top: 10px;
+        font-size: 3rem;
+    }
+
+    .home__logo__section {
+        height: 13rem;
+        width: 15rem;
+        margin-left: 32%;
+    }
+}
