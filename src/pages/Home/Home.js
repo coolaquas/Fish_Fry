@@ -11,8 +11,8 @@ function Home() {
     return (
         <div className="home">
             <div className="home__body">
-			<span className="home__heading"> FISH FRY</span>
-			<div className="home__logo__section"><img src={logo} alt="home__logo" className="home__logo"></img> </div>
+			<span className="gmheading"> FISH FRY</span>
+			<div className="home__logo__section my-sm-n3"><img src={logo} alt="home__logo" className="home__logo"></img> </div>
 			<div className="home__button">
 			<Button variant="contained" color="primary"className="mb-3" onClick={()=>handleClick("timer")}>Timer</Button>
 			<Button variant="contained" color="primary" onClick={()=>handleClick("scoreCard")}>Score Card</Button>

@@ -69,3 +69,10 @@
 .switch-input:checked+.switch-label::after {
     left: 24px;
 }
+
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+    .fs-9 {
+        font-size: 2rem !important;
+    }
+}
