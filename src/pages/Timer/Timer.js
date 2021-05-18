@@ -16,7 +16,7 @@ function Timer() {
 		history.push(`/`);
 	}
 	const handleStart =()=>{
-		setTime(10);
+		setTime(60);
 		setIsPaused(false);
 		setIsStarted(true);
 		setTimerEnd(false);
@@ -49,7 +49,7 @@ function Timer() {
 				!isStarted ? (
 					<>
 					<div className="timer__logo__shockFish__section pt-sm-3"><img src={shockFish} alt="timer__logo" className="h-100 w-100"></img> </div>
-					<div className="timer__logo__pan__section mt-sm-n2"><img src={Pan} alt="pan__logo" className="h-100 w-100"></img> </div>
+					<div className="timer__logo__pan__section mt-n4 mt-sm-n2"><img src={Pan} alt="pan__logo" className="h-100 w-100"></img> </div>
 					<div className="mt-n5  mt-sm-n4 fs-9 display-4 ">01:00</div>
 					</>
 				) : 
