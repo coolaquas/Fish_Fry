@@ -1,14 +1,6 @@
 .p-res {
-    padding: 0.75rem !important;
+  padding: 0.75rem !important;
 }
-
-.scoreInput::-webkit-input-placeholder {
-    font-family: FontAwesome;
-    font-weight: normal;
-    overflow: visible;
-    vertical-align: top;
-    display: inline-block !important;
-    padding-left: 5px;
-    padding-top: 2px;
-    color: #3d55df;
+.scoreboard input:focus::placeholder {
+  color: transparent;
 }
